@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-blend-mode: multiply;
+    background-image: url(https://ncas.ac.uk/app/uploads/2020/05/Climate-Weather-Blue-Clouds-1280px-1024x576.jpg);
+    background-color: #0000007e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    padding: 5% 0;
+    color: #fff;
+}
+h1{
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 5px;
+
+}
+i{
+    font-size: 108px;
+    margin: 15px 0;
+}
+h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+p{
+    font-size: 24px;
+    margin: 15px 0;
+}
+form input{
+    width: 550px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid lightblue;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+form input::placeholder{
+    color: #fff;
+}
+.daily_weather{
+    width: 550px;
+    height: 100px;
+    background-color: red;
+    margin-top: 15px;
+
+}
