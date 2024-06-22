@@ -17,4 +17,9 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=bcef58108fec4111a831505082
         condition.innerText = data.current.condition.text
         temp.innerText = `${data.current.temp_c} ℃`;
         time.innerText = data.location.localtime;
+
+        wind.innerText = data.current.wind_mph + " mph";
+    pressure.innerText = data.current.pressure_mb + " mb";
+    humidity.innerText = data.current.humidity + " %"
+    visibility.innerText = data.current.vis_km + " km"
     }
